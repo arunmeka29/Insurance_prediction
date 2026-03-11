@@ -3,10 +3,10 @@ import numpy as np
 
 class Insurance_Prediction:
     def __init__(self):
-        with open(r"C:\Users\Arunv\Desktop\Projects\Insurance_prediction\artifacts\scaler.pkl","rb") as f:
+        with open("./artifacts/scaler.pkl","rb") as f:
             self.scaler = pickle.load(f)
 
-        with open(r"C:\Users\Arunv\Desktop\Projects\Insurance_prediction\artifacts\model.pkl","rb") as f:
+        with open("./artifacts/model.pkl","rb") as f:
             self.model = pickle.load(f)
 
     def prediction(self, Age, Annual_Income_LPA, Policy_Term_Years, Sum_Assured_Lakhs):
