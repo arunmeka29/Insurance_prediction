@@ -1,7 +1,3 @@
-Arun, here is a **professional README.md** you can directly paste into your GitHub repository for your deployed app:
-Your deployed app: **[https://arun-batch20.streamlit.app/](https://arun-batch20.streamlit.app/)**
-
----
 
 # 🚑 Insurance Prediction using Machine Learning
 
